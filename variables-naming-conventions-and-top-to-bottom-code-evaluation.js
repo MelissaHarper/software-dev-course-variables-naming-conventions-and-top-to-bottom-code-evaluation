@@ -24,9 +24,12 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+let customer = "Alice";
+let numberOfItemsBought = 5;
+let costOfEachItem = 4;
+let totalCost = numberOfItemsBought * costOfEachItem;
+let storeName = "Barney's";
+let shoppingTotals = customer + " bought " + numberOfItemsBought + " items at $" + costOfEachItem + " each for a total of $" + totalCost + " at " + storeName + ".";
+
+console.log(shoppingTotals);
